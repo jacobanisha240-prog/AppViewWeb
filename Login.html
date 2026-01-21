@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dummy Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="font-family: Arial; text-align: center; margin-top: 100px;">
+
+  <h2>Dummy Login Page</h2>
+
+  <p>This simulates a web login</p>
+
+  <button onclick="login()"
+          style="padding: 12px 20px; font-size: 16px;">
+    Login
+  </button>
+
+  <script>
+    function login() {
+      // Simulate successful login
+      window.location.href =
+        "myapp://auth?token=demo123&email=test@example.com";
+    }
+  </script>
+
+</body>
+</html>
